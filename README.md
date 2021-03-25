@@ -1,0 +1,2 @@
+docker run --rm -v "/$PWD:/app" -p 1080:8080 --name openexchange_mock -d node:12-alpine node ./app/openexchangerates_mock/server.js
+docker run --rm -v "/$PWD:/app" -p 1081:8080 --name iphub_mock -d node:12-alpine node ./app/iphub_mock/server.js
